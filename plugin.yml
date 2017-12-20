@@ -1,0 +1,8 @@
+name: VoteGoalsM
+version: 0.1
+main: xyz.mukri.votegoals.VoteGoals
+author: Mukri
+description: VoteGoals by Mukri C 2017.
+commands:
+  votegoals:
+    description: Vote Goals Commands
