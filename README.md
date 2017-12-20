@@ -18,12 +18,14 @@ settings.yml can be found HERE.
 ###  Command Lists
 1. /Votegoals add - This is only for consoles
 2. /Votegoals - Show the current vote goals
+3. /Votegoals reset - Reset the current vote goals
 
 ###  PlaceHolder Lists
 1. %votetotal% - To get the current vote goals total.
 
 ###  Permissions Lists
-1. votegoals.reload - Allow the players to reload the settings.yml
+1. votegoalsm.reload - Allow the players to reload the settings.yml
+2. votegoalsm.reset - Allow the players to reset the current goals
 
 ###  Spigot Page
 https://www.spigotmc.org/resources/votegoalsm-v0-1.50953/
