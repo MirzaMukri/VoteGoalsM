@@ -74,6 +74,18 @@ public class VoteGoalsCmd implements CommandExecutor {
 				}
 			}
 			
+			else if(args[0].equalsIgnoreCase("reset")) {
+				if(p.hasPermission("votegoalsm.reset")) {
+					p.sendMessage("¤7[VoteGoalsM] Your current goal ¤c" + VoteGoals.getInstance().config.getVoteTotal() + "¤7!");
+					
+					VoteGoals.getInstance().config.getConfig().set("total", 0);
+					VoteGoals.getInstance().config.save();
+					p.sendMessage("¤7[VoteGoalsM] You successfuly reset the vote goals to 0.");
+				} else {
+					p.performCommand("votegoals");
+				}
+			}
+			
 			else {
 				p.performCommand("votegoals");
 			}

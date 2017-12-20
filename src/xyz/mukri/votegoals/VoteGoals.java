@@ -17,7 +17,7 @@ public class VoteGoals extends JavaPlugin {
 	public static VoteGoals instance;
 	public ConfigData config;
 	
-	public String versions = "V.0.1";
+	public String versions = "V.1.1";
 	
 	public void onEnable() {
 		instance = this;
