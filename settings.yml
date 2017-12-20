@@ -1,0 +1,9 @@
+total: 0
+goals: 10
+commands:
+- broadcast We reached our Vote Goals! Everyone gets $100
+- eco give * 100
+message:
+- '----------------------------->'
+- '&c&lVote Goals: &b&l%votetotal%/10'
+- '----------------------------->'
